@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* border: 0px; */
+
+}
+
+/* Class Selector */
+
+.main{
+    width: 90%;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(240, 240, 240);
+    
+}
+
+
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     width: 80%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+
+
+
+/* Element Class Selectore */
+.head hr {
+    border-style:double;
+    width: 100%;
+    border-width: 14px;
+    border-color: rgb(52, 52, 53);
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+/* ID Selector For the labels */
+#last{
+    margin-left: 150px;
+}
+
+#first{
+    margin-left: 150px;
+}
+
+/* For the Form Inputs */
+
+#firstname{
+    padding: 10px 0px;
+    margin-left: 80px;
+}
+
+#lastname{
+    padding: 10px 0px;
+    margin-left: 2px;
+}
+
+#email{
+    padding: 10px 0px;
+    margin-left: 100px;
+}
+
+#tel{
+    padding: 10px 0px;
+    margin-left: 100px;
+}
+
+#button{
+    padding: 5px 20px;
+    background-color: rgb(167, 4, 4);
+    color: white;
+    font-size: 20px;
+    margin-left: 130px;
+}
+
